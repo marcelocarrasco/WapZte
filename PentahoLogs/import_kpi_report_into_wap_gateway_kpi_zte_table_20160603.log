@@ -1,0 +1,12 @@
+2016/06/03 15:50:08 - ImportKpiReportIntoWapGatewayKpiZteTable - Starting entry [Get Kpi Report File Names From Files Table]
+2016/06/03 15:50:08 - Get Kpi Report File Names From Files Table - Loading transformation from XML file [file:///home/oracle/WapZte/PentahoSourceFiles/GetKpiReportFileNamesFromFilesTable.ktr]
+2016/06/03 15:50:08 - GetFileNameAndDateFromFilesTable - Dispatching started for transformation [GetFileNameAndDateFromFilesTable]
+2016/06/03 15:50:08 - Get Kpi Report Names To Import.0 - Finished reading query, closing connection.
+2016/06/03 15:50:08 - ImportKpiReportIntoWapGatewayKpiZteTable - Starting entry [Import Kpi Report Into WAP_GATEWAY_KPI_ZTE Table]
+2016/06/03 15:50:09 - Import Kpi Report Into WAP_GATEWAY_KPI_ZTE Table - Loading transformation from XML file [file:///home/oracle/WapZte/PentahoSourceFiles/ImportKpiReportIntoWAP_GATEWAY_KPI_ZTETable.ktr]
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Starting entry [Zip WAP Processed files]
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Starting entry [Success]
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Finished job entry [Success] (result=[true])
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Finished job entry [Zip WAP Processed files] (result=[true])
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Finished job entry [Import Kpi Report Into WAP_GATEWAY_KPI_ZTE Table] (result=[true])
+2016/06/03 15:50:09 - ImportKpiReportIntoWapGatewayKpiZteTable - Finished job entry [Get Kpi Report File Names From Files Table] (result=[true])

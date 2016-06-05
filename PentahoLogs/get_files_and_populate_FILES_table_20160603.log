@@ -1,0 +1,1496 @@
+2016/06/03 15:49:38 - GetFilesAndPopulateFILESTable - Starting entry [Get WAPZTE File Names]
+2016/06/03 15:49:38 - Get WAPZTE File Names - Loading transformation from XML file [file:///home/oracle/WapZte/PentahoSourceFiles/GetWAPZTEFileNames.ktr]
+2016/06/03 15:49:39 - GetWAPZTEFileNames - Dispatching started for transformation [GetWAPZTEFileNames]
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 1------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160425121649448.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 2------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160426033024894.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 3------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160427033028463.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 4------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160428033032024.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 5------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160429033035594.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 6------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160430033039174.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 7------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160501033042717.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Get WAPZTE File Names.0 - Finished processing (I=0, O=0, R=0, W=78, U=0, E=0)
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 8------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160502033046306.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 9------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160503033008571.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 10------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160504033020510.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 11------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160505033023999.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 12------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160506033027587.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 13------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160507033031147.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 14------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160508033034690.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 15------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160509033038268.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 16------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160510033041841.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 17------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160511033045427.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 18------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160512033048982.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 19------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160513033052506.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 20------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160514033056071.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 21------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160515033059631.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 22------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160516033003174.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 23------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160517033039383.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 24------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160518033048627.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 25------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160519033051895.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 26------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160520033055412.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 27------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160521033058949.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 28------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160522033002436.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 29------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160523033005973.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 30------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160524033009527.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 31------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160525033013038.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 32------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160526033016632.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 33------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160527033020154.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 34------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160528033023723.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 35------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160529033027275.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 36------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160530033030886.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 37------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160531033034433.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 38------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160601033049452.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 39------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160602033052798.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 40------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160425121645727.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 41------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160426035524881.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 42------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160427035528471.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 43------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160428035532024.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 44------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160429035535592.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 45------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160430035539175.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 46------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160501035542734.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 47------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160502035546304.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 48------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160503035508466.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 49------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160504035520456.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 50------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160505035524009.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 51------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160506035527591.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 52------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160507035531139.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 53------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160508035534699.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 54------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160509035538274.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 55------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160510035541845.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 56------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160511035545388.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 57------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160512035548953.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 58------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160513035552506.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 59------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160514035556064.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 60------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160515035559626.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 61------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160516035503201.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 62------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160517035539102.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 63------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160518035548390.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 64------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160519035551931.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 65------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160520035555442.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 66------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160521035558943.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 67------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160522035502445.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 68------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160523035505990.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 69------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160524035509572.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 70------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160525035513063.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 71------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160526035516636.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 72------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160527035520176.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 73------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160528035523705.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 74------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160529035527302.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 75------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160530035530850.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 76------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160531035534444.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 77------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160601035549252.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ------------> Linenr 78------------------------------
+2016/06/03 15:49:39 - Write to log.0 - Files from DISK:
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160602035552827.csv
+2016/06/03 15:49:39 - Write to log.0 - 
+2016/06/03 15:49:39 - Write to log.0 - ====================
+2016/06/03 15:49:39 - Write to log.0 - Finished processing (I=0, O=0, R=78, W=78, U=0, E=0)
+2016/06/03 15:49:39 - Copy rows to result.0 - Finished processing (I=0, O=0, R=78, W=78, U=0, E=0)
+2016/06/03 15:49:39 - GetFilesAndPopulateFILESTable - Starting entry [Populate FILES Table]
+2016/06/03 15:49:39 - Populate FILES Table - Loading transformation from XML file [file:///home/oracle/WapZte/PentahoSourceFiles/PopulateFILESTable.ktr]
+2016/06/03 15:49:39 - PopulateFILESTable - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:41 - Get filename from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:41 - Write to log.0 - 
+2016/06/03 15:49:41 - Write to log.0 - ------------> Linenr 1------------------------------
+2016/06/03 15:49:41 - Write to log.0 - File name to CSV Input:
+2016/06/03 15:49:41 - Write to log.0 - 
+2016/06/03 15:49:41 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160425121649448.csv
+2016/06/03 15:49:41 - Write to log.0 - 
+2016/06/03 15:49:41 - Write to log.0 - ====================
+2016/06/03 15:49:41 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:41 - Add STATUS constants.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:41 - Insert filename into FILES table.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:41 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:42 - Get filename from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Write to log.0 - 
+2016/06/03 15:49:42 - Write to log.0 - ------------> Linenr 1------------------------------
+2016/06/03 15:49:42 - Write to log.0 - File name to CSV Input:
+2016/06/03 15:49:42 - Write to log.0 - 
+2016/06/03 15:49:42 - Write to log.0 - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160426033024894.csv
+2016/06/03 15:49:42 - Write to log.0 - 
+2016/06/03 15:49:42 - Write to log.0 - ====================
+2016/06/03 15:49:42 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Add STATUS constants.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Insert filename into FILES table.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:42 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160427033028463.csv
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - ====================
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:42 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160428033032024.csv
+2016/06/03 15:49:42 - Populate FILES Table - 
+2016/06/03 15:49:42 - Populate FILES Table - ====================
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:42 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:43 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160429033035594.csv
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ====================
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:43 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160430033039174.csv
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ====================
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:43 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160501033042717.csv
+2016/06/03 15:49:43 - Populate FILES Table - 
+2016/06/03 15:49:43 - Populate FILES Table - ====================
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:43 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:44 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160502033046306.csv
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ====================
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:44 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160503033008571.csv
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ====================
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:44 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160504033020510.csv
+2016/06/03 15:49:44 - Populate FILES Table - 
+2016/06/03 15:49:44 - Populate FILES Table - ====================
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:44 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:45 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160505033023999.csv
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - ====================
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:45 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160506033027587.csv
+2016/06/03 15:49:45 - Populate FILES Table - 
+2016/06/03 15:49:45 - Populate FILES Table - ====================
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:45 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:46 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160507033031147.csv
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ====================
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:46 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160508033034690.csv
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ====================
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:46 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160509033038268.csv
+2016/06/03 15:49:46 - Populate FILES Table - 
+2016/06/03 15:49:46 - Populate FILES Table - ====================
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:46 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:47 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160510033041841.csv
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ====================
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:47 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160511033045427.csv
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ====================
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:47 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160512033048982.csv
+2016/06/03 15:49:47 - Populate FILES Table - 
+2016/06/03 15:49:47 - Populate FILES Table - ====================
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:47 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:48 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160513033052506.csv
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ====================
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:48 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160514033056071.csv
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ====================
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:48 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160515033059631.csv
+2016/06/03 15:49:48 - Populate FILES Table - 
+2016/06/03 15:49:48 - Populate FILES Table - ====================
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:48 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:49 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160516033003174.csv
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ====================
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:49 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160517033039383.csv
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ====================
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:49 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160518033048627.csv
+2016/06/03 15:49:49 - Populate FILES Table - 
+2016/06/03 15:49:49 - Populate FILES Table - ====================
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:49 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:50 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160519033051895.csv
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ====================
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:50 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160520033055412.csv
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ====================
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:50 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160521033058949.csv
+2016/06/03 15:49:50 - Populate FILES Table - 
+2016/06/03 15:49:50 - Populate FILES Table - ====================
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:50 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:51 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160522033002436.csv
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ====================
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:51 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160523033005973.csv
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ====================
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:51 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160524033009527.csv
+2016/06/03 15:49:51 - Populate FILES Table - 
+2016/06/03 15:49:51 - Populate FILES Table - ====================
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:51 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:52 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160525033013038.csv
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ====================
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:52 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160526033016632.csv
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ====================
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:52 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160527033020154.csv
+2016/06/03 15:49:52 - Populate FILES Table - 
+2016/06/03 15:49:52 - Populate FILES Table - ====================
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:52 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:53 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160528033023723.csv
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ====================
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:53 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160529033027275.csv
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ====================
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:53 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160530033030886.csv
+2016/06/03 15:49:53 - Populate FILES Table - 
+2016/06/03 15:49:53 - Populate FILES Table - ====================
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:53 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:54 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160531033034433.csv
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ====================
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:54 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160601033049452.csv
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ====================
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:54 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.03_Daily_WAP_Gateway_Kpi_Report_20160602033052798.csv
+2016/06/03 15:49:54 - Populate FILES Table - 
+2016/06/03 15:49:54 - Populate FILES Table - ====================
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:54 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:55 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160425121645727.csv
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ====================
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:55 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160426035524881.csv
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ====================
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:55 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160427035528471.csv
+2016/06/03 15:49:55 - Populate FILES Table - 
+2016/06/03 15:49:55 - Populate FILES Table - ====================
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:55 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:56 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160428035532024.csv
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ====================
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:56 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160429035535592.csv
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ====================
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:56 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160430035539175.csv
+2016/06/03 15:49:56 - Populate FILES Table - 
+2016/06/03 15:49:56 - Populate FILES Table - ====================
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:56 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:57 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160501035542734.csv
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ====================
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:57 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160502035546304.csv
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ====================
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:57 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160503035508466.csv
+2016/06/03 15:49:57 - Populate FILES Table - 
+2016/06/03 15:49:57 - Populate FILES Table - ====================
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:57 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:58 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160504035520456.csv
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ====================
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:58 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160505035524009.csv
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ====================
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:58 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160506035527591.csv
+2016/06/03 15:49:58 - Populate FILES Table - 
+2016/06/03 15:49:58 - Populate FILES Table - ====================
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:58 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:59 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160507035531139.csv
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ====================
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:59 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160508035534699.csv
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ====================
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:49:59 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160509035538274.csv
+2016/06/03 15:49:59 - Populate FILES Table - 
+2016/06/03 15:49:59 - Populate FILES Table - ====================
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:49:59 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:00 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160510035541845.csv
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ====================
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:00 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160511035545388.csv
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ====================
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:00 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160512035548953.csv
+2016/06/03 15:50:00 - Populate FILES Table - 
+2016/06/03 15:50:00 - Populate FILES Table - ====================
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:00 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:01 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160513035552506.csv
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ====================
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:01 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160514035556064.csv
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ====================
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:01 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160515035559626.csv
+2016/06/03 15:50:01 - Populate FILES Table - 
+2016/06/03 15:50:01 - Populate FILES Table - ====================
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:01 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:02 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160516035503201.csv
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ====================
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:02 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160517035539102.csv
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ====================
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:02 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160518035548390.csv
+2016/06/03 15:50:02 - Populate FILES Table - 
+2016/06/03 15:50:02 - Populate FILES Table - ====================
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:02 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:03 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160519035551931.csv
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ====================
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:03 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160520035555442.csv
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ====================
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:03 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160521035558943.csv
+2016/06/03 15:50:03 - Populate FILES Table - 
+2016/06/03 15:50:03 - Populate FILES Table - ====================
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:03 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:04 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160522035502445.csv
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ====================
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:04 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160523035505990.csv
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ====================
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:04 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160524035509572.csv
+2016/06/03 15:50:04 - Populate FILES Table - 
+2016/06/03 15:50:04 - Populate FILES Table - ====================
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:04 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:05 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160525035513063.csv
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ====================
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:05 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160526035516636.csv
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ====================
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:05 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160527035520176.csv
+2016/06/03 15:50:05 - Populate FILES Table - 
+2016/06/03 15:50:05 - Populate FILES Table - ====================
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:05 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:06 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160528035523705.csv
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ====================
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:06 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160529035527302.csv
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ====================
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:06 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160530035530850.csv
+2016/06/03 15:50:06 - Populate FILES Table - 
+2016/06/03 15:50:06 - Populate FILES Table - ====================
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:06 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:07 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160531035534444.csv
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - ====================
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:07 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160601035549252.csv
+2016/06/03 15:50:07 - Populate FILES Table - 
+2016/06/03 15:50:07 - Populate FILES Table - ====================
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:07 - Populate FILES Table - Dispatching started for transformation [PopulateFILESTable]
+2016/06/03 15:50:08 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:08 - Populate FILES Table - 
+2016/06/03 15:50:08 - Populate FILES Table - ------------> Linenr 1------------------------------
+2016/06/03 15:50:08 - Populate FILES Table - File name to CSV Input:
+2016/06/03 15:50:08 - Populate FILES Table - 
+2016/06/03 15:50:08 - Populate FILES Table - filename = /home/oracle/WapZte/wapgw/1.04_Daily_Service_Gateway_Real-Time_Report_20160602035552827.csv
+2016/06/03 15:50:08 - Populate FILES Table - 
+2016/06/03 15:50:08 - Populate FILES Table - ====================
+2016/06/03 15:50:08 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:08 - Populate FILES Table - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:08 - Populate FILES Table - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Starting entry [Evaluate rows number in a table]
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Starting entry [Success]
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Finished job entry [Success] (result=[true])
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Finished job entry [Evaluate rows number in a table] (result=[true])
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Finished job entry [Populate FILES Table] (result=[true])
+2016/06/03 15:50:08 - GetFilesAndPopulateFILESTable - Finished job entry [Get WAPZTE File Names] (result=[true])

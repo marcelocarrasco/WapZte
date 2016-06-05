@@ -1,0 +1,7 @@
+Gateway,Gateway Request Number,Total Number,Gateway Request Success Number,Gateway Request Virtual Number,Gateway Top Request Number,Gateway Success Rate(%),Gateway Virtual Rate(%),Gateway Top Average CPU Rate,Gateway Average Delay
+wapgw1,15,15,12,15,0,80.00,100.00,3.00,685.33
+wapgw2,2625,2625,1895,2615,0,72.19,99.62,1.00,942.42
+wapgw3,0,0,0,0,0,0.00,0.00,1.00,0.00
+wapgw4,0,0,0,0,0,0.00,0.00,2.00,0.00
+wapradius,0,0,0,0,0,0.00,0.00,1.00,0.00
+Total/Average,2640,2640,1907,2630,0,72.23,99.62,1.60,940.80
