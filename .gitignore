@@ -1,0 +1,8 @@
+#Logs
+/PentahoLogs/*
+*.log
+
+#Others
+/wapgw/*
+*.gz
+
