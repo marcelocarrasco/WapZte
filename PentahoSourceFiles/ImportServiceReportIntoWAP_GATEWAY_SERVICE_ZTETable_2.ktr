@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTETable</name>
+    <name>ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTETable_2</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -66,10 +66,10 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;03 16&#x3a;59&#x3a;29.991</created_date>
+  <created_date>2016&#x2f;06&#x2f;06 14&#x3a;37&#x3a;40.516</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;03 16&#x3a;59&#x3a;29.991</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+  <modified_date>2016&#x2f;06&#x2f;06 14&#x3a;37&#x3a;40.516</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -99,14 +99,48 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>CSV file input</from><to>Write to log</to><enabled>Y</enabled> </hop>
-  <hop> <from>Get rows from result</from><to>CSV file input</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log</from><to>Table WAP_GATEWAY_SERVICE_ZTE_AUX output</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log 2</from><to>Get System Info</to><enabled>Y</enabled> </hop>
-  <hop> <from>Get System Info</from><to>Update Ok</to><enabled>Y</enabled> </hop>
-  <hop> <from>Table WAP_GATEWAY_SERVICE_ZTE_AUX output</from><to>Call G_WAP_ZTE.F_WAP_GTW_SERVICE_ZTE_RAW_INS DB Procedure</to><enabled>Y</enabled> </hop>
-  <hop> <from>Call G_WAP_ZTE.F_WAP_GTW_SERVICE_ZTE_RAW_INS DB Procedure</from><to>Write to log 2</to><enabled>Y</enabled> </hop>
+  <hop> <from>Generate Rows</from><to>CSV file input</to><enabled>Y</enabled> </hop>
+  <hop> <from>CSV file input</from><to>Table output</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table output</from><to>Call DB Procedure</to><enabled>Y</enabled> </hop>
   </order>
+  <step>
+    <name>Generate Rows</name>
+    <type>RowGenerator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>NOMBRE_CSV</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>&#x2f;home&#x2f;oracle&#x2f;WapZte&#x2f;wapgw&#x2f;1.04_Daily_Service_Gateway_Real-Time_Report_20160602035552827.csv</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <limit>1</limit>
+    <never_ending>N</never_ending>
+    <interval_in_ms>5000</interval_in_ms>
+    <row_time_field>now</row_time_field>
+    <last_time_field>FiveSecondsAgo</last_time_field>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>144</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>CSV file input</name>
     <type>CsvInput</type>
@@ -130,7 +164,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding>UTF-8</encoding>
+    <encoding/>
     <fields>
       <field>
         <name>Time</name>
@@ -139,14 +173,14 @@
         <currency/>
         <decimal/>
         <group/>
-        <length>5</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>both</trim_type>
+        <trim_type>none</trim_type>
       </field>
       <field>
         <name>WAP Browser Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -157,7 +191,7 @@
       <field>
         <name>WAP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -168,7 +202,7 @@
       <field>
         <name>HTTP Browser Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -179,7 +213,7 @@
       <field>
         <name>HTTP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -190,7 +224,7 @@
       <field>
         <name>JAVA Download Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -201,7 +235,7 @@
       <field>
         <name>JAVA Download Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -212,7 +246,7 @@
       <field>
         <name>MMS POST Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -223,7 +257,7 @@
       <field>
         <name>MMS POST Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -234,7 +268,7 @@
       <field>
         <name>MMS GET Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -245,7 +279,7 @@
       <field>
         <name>MMS GET Request Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -256,7 +290,7 @@
       <field>
         <name>PUSH Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -267,7 +301,7 @@
       <field>
         <name>PUSH Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -278,7 +312,7 @@
       <field>
         <name>Radius Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -289,7 +323,7 @@
       <field>
         <name>Radius Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -300,7 +334,7 @@
       <field>
         <name>Request Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -311,7 +345,7 @@
       <field>
         <name>Request Success Ratio&#x28;&#x25;&#x29;</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -322,7 +356,7 @@
       <field>
         <name>Online User Number</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -333,7 +367,7 @@
       <field>
         <name>Gateway Forward Request Delay&#x28;ms&#x29;</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -344,7 +378,7 @@
       <field>
         <name>Gateway Forward Response Delay&#x28;ms&#x29;</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -355,7 +389,7 @@
       <field>
         <name>SP Delay&#x28;ms&#x29;</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -366,7 +400,7 @@
       <field>
         <name>Service Delay&#x28;ms&#x29;</name>
         <type>Number</type>
-        <format>&#x23;</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -377,62 +411,14 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>384</xloc>
-      <yloc>64</yloc>
+      <xloc>320</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Get System Info</name>
-    <type>SystemInfo</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>fechaProc</name>
-        <type>system date &#x28;variable&#x29;</type>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>544</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Get rows from result</name>
-    <type>RowsFromResult</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>      <field>        <name>NOMBRE_CSV</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        </field>      </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>192</xloc>
-      <yloc>64</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Table WAP_GATEWAY_SERVICE_ZTE_AUX output</name>
+    <name>Table output</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -448,7 +434,7 @@
     <commit>1000</commit>
     <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
-    <use_batch>N</use_batch>
+    <use_batch>Y</use_batch>
     <specify_fields>Y</specify_fields>
     <partitioning_enabled>N</partitioning_enabled>
     <partitioning_field/>
@@ -555,247 +541,14 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
-      <yloc>64</yloc>
+      <xloc>560</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Update Ok</name>
-    <type>Update</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>falda.claro.amx</connection>
-    <skip_lookup>N</skip_lookup>
-    <commit>100</commit>
-    <use_batch>N</use_batch>
-    <error_ignored>N</error_ignored>
-    <ignore_flag_field/>
-    <lookup>
-      <schema>MCARRASCO</schema>
-      <table>FILES</table>
-      <key>
-        <name>NOMBRE_CSV</name>
-        <field>NOMBRE_CSV</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-        </key>
-      <value>
-        <name>STATUS</name>
-        <rename>vStatus</rename>
-        </value>
-      <value>
-        <name>PROCESADO</name>
-        <rename>fechaProc</rename>
-        </value>
-      </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>320</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Write to log</name>
-    <type>WriteToLog</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>Line from NOMBRE_CSV&#x3a;</logmessage>
-    <fields>
-      <field>
-        <name>Time</name>
-        </field>
-      <field>
-        <name>WAP Browser Request Number</name>
-        </field>
-      <field>
-        <name>WAP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>HTTP Browser Request Number</name>
-        </field>
-      <field>
-        <name>HTTP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>JAVA Download Request Number</name>
-        </field>
-      <field>
-        <name>JAVA Download Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>MMS POST Request Number</name>
-        </field>
-      <field>
-        <name>MMS POST Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>MMS GET Request Number</name>
-        </field>
-      <field>
-        <name>MMS GET Request Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>PUSH Request Number</name>
-        </field>
-      <field>
-        <name>PUSH Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Radius Request Number</name>
-        </field>
-      <field>
-        <name>Radius Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Request Number</name>
-        </field>
-      <field>
-        <name>Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Online User Number</name>
-        </field>
-      <field>
-        <name>Gateway Forward Request Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>Gateway Forward Response Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>SP Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>Service Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>NOMBRE_CSV</name>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>512</xloc>
-      <yloc>64</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Write to log 2</name>
-    <type>WriteToLog</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>Status&#x3a;</logmessage>
-    <fields>
-      <field>
-        <name>Time</name>
-        </field>
-      <field>
-        <name>WAP Browser Request Number</name>
-        </field>
-      <field>
-        <name>WAP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>HTTP Browser Request Number</name>
-        </field>
-      <field>
-        <name>HTTP Browser Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>JAVA Download Request Number</name>
-        </field>
-      <field>
-        <name>JAVA Download Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>MMS POST Request Number</name>
-        </field>
-      <field>
-        <name>MMS POST Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>MMS GET Request Number</name>
-        </field>
-      <field>
-        <name>MMS GET Request Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>PUSH Request Number</name>
-        </field>
-      <field>
-        <name>PUSH Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Radius Request Number</name>
-        </field>
-      <field>
-        <name>Radius Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Request Number</name>
-        </field>
-      <field>
-        <name>Request Success Ratio&#x28;&#x25;&#x29;</name>
-        </field>
-      <field>
-        <name>Online User Number</name>
-        </field>
-      <field>
-        <name>Gateway Forward Request Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>Gateway Forward Response Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>SP Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>Service Delay&#x28;ms&#x29;</name>
-        </field>
-      <field>
-        <name>NOMBRE_CSV</name>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Call G_WAP_ZTE.F_WAP_GTW_SERVICE_ZTE_RAW_INS DB Procedure</name>
+    <name>Call DB Procedure</name>
     <type>DBProc</type>
     <description/>
     <distribute>Y</distribute>
@@ -816,8 +569,8 @@
     <auto_commit>N</auto_commit>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
-      <yloc>208</yloc>
+      <xloc>560</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
