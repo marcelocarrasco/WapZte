@@ -133,7 +133,7 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <sql>SELECT  nombre_csv&#xa;FROM FILES&#xa;WHERE nombre_csv like &#x27;&#x25;1.04_Daily_Service_Gateway_Real-Time_Report_&#x25;&#x27;&#xa;AND status &#x3d; 5&#xa;AND procesado is null</sql>
+    <sql>SELECT  nombre_csv,&#xa;        &#x28;SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,7,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,5,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,1,4&#x29;&#x29; fecha&#xa;FROM FILES&#xa;WHERE nombre_csv like &#x27;&#x25;1.04_Daily_Service_Gateway_Real-Time_Report_&#x25;&#x27;&#xa;AND status &#x3d; 5&#xa;AND procesado is null&#xa;order by to_date&#x28;&#x28;SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,7,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,5,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,1,4&#x29;&#x29;,&#x27;dd.mm.yyyy&#x27;&#x29; asc</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
