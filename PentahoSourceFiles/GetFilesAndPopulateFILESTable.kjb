@@ -90,9 +90,9 @@
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
+      <set_logfile>Y</set_logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;get_WAPZTE_file_names</logfile>
+      <logext>log</logext>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
@@ -123,9 +123,9 @@
       <exec_per_row>Y</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
+      <set_logfile>Y</set_logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;populate_FILES_table</logfile>
+      <logext>log</logext>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
@@ -150,7 +150,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
+      <xloc>912</xloc>
       <yloc>64</yloc>
       </entry>
     <entry>
@@ -160,7 +160,7 @@
       <connection>falda.claro.amx</connection>
       <schemaname/>
       <tablename/>
-      <success_condition>rows_count_greater</success_condition>
+      <success_condition>rows_count_greater_equal</success_condition>
       <limit>2</limit>
       <is_custom_sql>Y</is_custom_sql>
       <is_usevars>N</is_usevars>
@@ -170,8 +170,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>688</xloc>
-      <yloc>160</yloc>
+      <xloc>720</xloc>
+      <yloc>64</yloc>
       </entry>
     <entry>
       <name>Abort job</name>
@@ -181,8 +181,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
-      <yloc>256</yloc>
+      <xloc>720</xloc>
+      <yloc>240</yloc>
       </entry>
   </entries>
   <hops>
@@ -201,15 +201,6 @@
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Populate FILES Table</from>
-      <to>Success</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
