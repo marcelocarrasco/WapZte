@@ -21,7 +21,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-);
+) nologging;
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_RAW.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';
 comment on column WAP_GATEWAY_SERVICE_ZTE_RAW.HTTP_BROWSER_REQ_SUCCESS_RATIO is 'Abreviatura de la colunma original HTTP_BROWSER_REQUEST_SUCCESS_RATIO';
@@ -106,7 +106,7 @@ TIME_                               DATE GENERATED ALWAYS AS (to_date(SUBSTR(SUB
                                                                     SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),5,2)||
                                                                     '.'||
                                                                     SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),1,4)||' '||HORA,'dd.mm.yyyy HH24:MI')-1) VIRTUAL
-);
+) nologging;
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_AUX.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';
 comment on column WAP_GATEWAY_SERVICE_ZTE_AUX.HTTP_BROWSER_REQ_SUCCESS_RATIO is 'Abreviatura de la colunma original HTTP_BROWSER_REQUEST_SUCCESS_RATIO';
@@ -135,7 +135,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-);
+) nologging;
 
 ALTER TABLE WAP_GATEWAY_SERVICE_ZTE_DAY ADD CONSTRAINT WAP_GATEWAY_SERVICE_ZTE_DAY_PK PRIMARY KEY (FECHA);
 
@@ -166,7 +166,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-);
+) nologging;
 
 --ALTER TABLE WAP_GATEWAY_SERVICE_ZTE_BH ADD CONSTRAINT WAP_GATEWAY_SERVICE_ZTE_DAY_PK PRIMARY KEY (FECHA);
 
@@ -197,7 +197,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-);
+) nologging;
 
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_IBHW.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';

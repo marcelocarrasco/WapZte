@@ -92,17 +92,17 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWAP_GATEWAY_KPI_ZTETable.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWAP_GATEWAY_KPI_ZTE_AUXTable.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>Y</exec_per_row>
       <clear_rows>Y</clear_rows>
       <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
+      <set_logfile>Y</set_logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_kpi_reportInto_WAP_GATEWAY_KPI_ZTE_AUX_table_</logfile>
+      <logext>log</logext>
+      <add_date>Y</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
       <cluster>N</cluster>
@@ -126,8 +126,41 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>880</xloc>
-      <yloc>64</yloc>
+      <xloc>624</xloc>
+      <yloc>352</yloc>
+      </entry>
+    <entry>
+      <name>Import Kpi Report Into WAP_GATEWAY_KPI_ZTE_RAW Table</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWAP_GATEWAY_KPI_ZTE_RAWTable.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>Y</set_logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_kpi_report_into_WAP_GATEWAY_KPI_ZTE_RAW_table_</logfile>
+      <logext>log</logext>
+      <add_date>Y</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>624</xloc>
+      <yloc>208</yloc>
       </entry>
   </entries>
   <hops>
@@ -151,6 +184,15 @@
     </hop>
     <hop>
       <from>Import Kpi Report Into WAP_GATEWAY_KPI_ZTE Table</from>
+      <to>Import Kpi Report Into WAP_GATEWAY_KPI_ZTE_RAW Table</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Import Kpi Report Into WAP_GATEWAY_KPI_ZTE_RAW Table</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>

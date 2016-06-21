@@ -1,0 +1,63 @@
+WapZte/
+├── Packages
+├── PentahoLogs
+│   ├── calcular_sumarizaciones_zte.log
+│   ├── get_files_and_populate_FILES_table_20160613.log
+│   ├── get_files_and_populate_FILES_table_20160614.log
+│   ├── get_files_and_populate_FILES_table_20160615.log
+│   ├── get_files_and_populate_FILES_table_20160616.log
+│   ├── get_files_and_populate_FILES_table_20160617.log
+│   ├── get_files_and_populate_FILES_table_20160618.log
+│   ├── get_files_and_populate_FILES_table_20160619.log
+│   ├── get_files_and_populate_FILES_table_20160620.log
+│   ├── get_files_and_populate_FILES_table_20160621.log
+│   ├── get_WAPZTE_file_names.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160613.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160614.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160615.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160616.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160617.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160618.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160619.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160620.log
+│   ├── import_kpi_report_into_wap_gateway_kpi_zte_table_20160621.log
+│   ├── import_service_report_into_wap_gateway_service_zte_table.log
+│   └── populate_FILES_table.log
+├── PentahoSourceFiles
+│   ├── CalcularSumarizacionesZte.ktr
+│   ├── GetFilesAndPopulateFILESTable.kjb
+│   ├── GetKpiReportFileNamesFromFilesTable.ktr
+│   ├── GetServiceReportFileNamesFromFilesTable.ktr
+│   ├── GetWAPZTEFileNames.ktr
+│   ├── ImportEndToEnd.kjb
+│   ├── ImportKpiReportIntoWAP_GATEWAY_KPI_ZTE_AUXTable.ktr
+│   ├── ImportKpiReportIntoWAP_GATEWAY_KPI_ZTE_RAWTable.ktr
+│   ├── ImportKpiReportIntoWapGatewayKpiZteTable.kjb
+│   ├── ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_AUXTable.ktr
+│   ├── ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_RAWTable.ktr
+│   ├── ImportServiceReportIntoWapGatewayServiceZteTable.kjb
+│   ├── PentahoSourceFiles_old.tar.gz
+│   └── PopulateFILESTable.ktr
+├── Scripts
+│   ├── cleanUpFiles.sh
+│   ├── scpWapZte.sh
+│   ├── wapZteDiario.sh
+│   └── wapzte.sh
+├── Tables
+│   ├── WAP_GATEWAY_KPI_ZTE.sql
+│   └── WAP_GATEWAY_SERVICE_ZTE.sql
+├── wapgw
+│   ├── CSV
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160613.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160614.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160615.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160616.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160617.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160618.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160619.zip
+│   │   ├── Daily_WAP_Service_Gateway_Real-Time_Report_20160620.zip
+│   │   └── Daily_WAP_Service_Gateway_Real-Time_Report_20160621.zip
+│   └── logs
+└── WapTree.txt
+
+8 directories, 52 files

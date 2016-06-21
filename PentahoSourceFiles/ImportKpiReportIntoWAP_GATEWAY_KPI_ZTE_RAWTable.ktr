@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>CalcularSumarizacionesZte</name>
+    <name>ImportKpiReportIntoWAP_GATEWAY_KPI_ZTE_RAWTable</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -66,10 +66,10 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;13 11&#x3a;26&#x3a;37.076</created_date>
+  <created_date>2016&#x2f;06&#x2f;21 15&#x3a;12&#x3a;30.411</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;13 11&#x3a;26&#x3a;37.076</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+  <modified_date>2016&#x2f;06&#x2f;21 15&#x3a;12&#x3a;30.411</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -99,44 +99,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Write to log</from><to>Call P_CALCULAR_SUMARIZACIONES_ZTE DB Procedure</to><enabled>Y</enabled> </hop>
-  <hop> <from>Get Yesterday from Dual</from><to>Write to log</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table WAP_GATEWAY_KPI_ZTE_AUX input</from><to>Table WAP_GATEWAY_KPI_ZTE_RAW output</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Call P_CALCULAR_SUMARIZACIONES_ZTE DB Procedure</name>
-    <type>DBProc</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>falda.claro.amx</connection>
-    <procedure>G_WAP_ZTE.P_CALCULAR_SUMARIZACIONES_ZTE</procedure>
-    <lookup>
-      <arg>
-        <name>FECHANEW</name>
-        <direction>IN</direction>
-        <type>String</type>
-      </arg>
-    </lookup>
-    <result>
-      <name/>
-      <type>Number</type>
-    </result>
-    <auto_commit>N</auto_commit>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>624</xloc>
-      <yloc>112</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Get Yesterday from Dual</name>
+    <name>Table WAP_GATEWAY_KPI_ZTE_AUX input</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -147,7 +113,7 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <sql>SELECT to_char&#x28;sysdate-1,&#x27;DD.MM.YYYY&#x27;&#x29; fechaNew from dual</sql>
+    <sql>SELECT  to_date&#x28;&#x28;SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,7,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,5,2&#x29;&#x7c;&#x7c;&#xa;        &#x27;.&#x27;&#x7c;&#x7c;&#xa;        SUBSTR&#x28;SUBSTR&#x28;nombre_csv,INSTR&#x28;nombre_csv,&#x27;_&#x27;,-1&#x29;&#x2b;1,8&#x29;,1,4&#x29;&#x29;,&#x27;dd.mm.yyyy&#x27;&#x29;-1 fecha,&#xa;        GATEWAY,&#xa;        GATEWAY_REQUEST_NUMBER,&#xa;        TOTAL_NUMBER,&#xa;        GATEWAY_REQUEST_SUCCESS_NUMBER,&#xa;        GATEWAY_REQUEST_VIRTUAL_NUMBER,&#xa;        GATEWAY_TOP_REQUEST_NUMBER,&#xa;        GATEWAY_SUCCESS_RATE,&#xa;        GATEWAY_VIRTUAL_RATE,&#xa;        GATEWAY_TOP_AVERAGE_CPU_RATE,&#xa;        GATEWAY_AVERAGE_DELAY&#xa;FROM  WAP_GATEWAY_KPI_ZTE_AUX</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -155,15 +121,15 @@
     <lazy_conversion_active>Y</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>160</xloc>
-      <yloc>112</yloc>
+      <xloc>208</xloc>
+      <yloc>144</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Write to log</name>
-    <type>WriteToLog</type>
+    <name>Table WAP_GATEWAY_KPI_ZTE_RAW output</name>
+    <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -172,20 +138,73 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>YESTERDAY NEW&#x3a;</logmessage>
+    <connection>falda.claro.amx</connection>
+    <schema/>
+    <table>WAP_GATEWAY_KPI_ZTE_RAW</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
     <fields>
-      <field>
-        <name>FECHANEW</name>
+        <field>
+          <column_name>FECHA</column_name>
+          <stream_name>FECHA</stream_name>
         </field>
-      </fields>
+        <field>
+          <column_name>GATEWAY</column_name>
+          <stream_name>GATEWAY</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_REQUEST_NUMBER</column_name>
+          <stream_name>GATEWAY_REQUEST_NUMBER</stream_name>
+        </field>
+        <field>
+          <column_name>TOTAL_NUMBER</column_name>
+          <stream_name>TOTAL_NUMBER</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_REQUEST_SUCCESS_NUMBER</column_name>
+          <stream_name>GATEWAY_REQUEST_SUCCESS_NUMBER</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_REQUEST_VIRTUAL_NUMBER</column_name>
+          <stream_name>GATEWAY_REQUEST_VIRTUAL_NUMBER</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_TOP_REQUEST_NUMBER</column_name>
+          <stream_name>GATEWAY_TOP_REQUEST_NUMBER</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_SUCCESS_RATE</column_name>
+          <stream_name>GATEWAY_SUCCESS_RATE</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_VIRTUAL_RATE</column_name>
+          <stream_name>GATEWAY_VIRTUAL_RATE</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_TOP_AVERAGE_CPU_RATE</column_name>
+          <stream_name>GATEWAY_TOP_AVERAGE_CPU_RATE</stream_name>
+        </field>
+        <field>
+          <column_name>GATEWAY_AVERAGE_DELAY</column_name>
+          <stream_name>GATEWAY_AVERAGE_DELAY</stream_name>
+        </field>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>384</xloc>
-      <yloc>112</yloc>
+      <xloc>512</xloc>
+      <yloc>144</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
