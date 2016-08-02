@@ -1,3 +1,25 @@
+
+--select fecha,to_date(FECHA,'DD.MM.YYYY HH24:MI.SS')+1
+--from wap_gateway_service_zte_raw
+--where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('31.07.2016','DD.MM.YYYY');
+--
+----
+--select fecha,to_date(FECHA,'DD.MM.YYYY HH24:MI.SS')+1
+--from wap_gateway_kpi_zte_raw
+--where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('31.07.2016','DD.MM.YYYY');
+----
+--update wap_gateway_service_zte_raw set
+--fecha = to_date(fecha,'DD.MM.YYYY HH24:MI:SS')+1
+--where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('26.07.2016','DD.MM.YYYY');
+--
+
+--create table bck_wap_gatway_service_zte_raw as
+--select *
+--from wap_gateway_service_zte_raw
+--where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') > to_date('25.07.2016','DD.MM.YYYY');
+
+
+
 CREATE TABLE WAP_GATEWAY_SERVICE_ZTE_RAW(
 FECHA                               DATE NOT NULL ENABLE,
 WAP_BROWSER_REQUEST_NUMBER          NUMBER NOT NULL ENABLE,
@@ -105,7 +127,7 @@ TIME_                               DATE GENERATED ALWAYS AS (to_date(SUBSTR(SUB
                                                                     '.'||
                                                                     SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),5,2)||
                                                                     '.'||
-                                                                    SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),1,4)||' '||HORA,'dd.mm.yyyy HH24:MI')-1) VIRTUAL
+                                                                    SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),1,4)||' '||HORA,'dd.mm.yyyy HH24:MI')) VIRTUAL
 ) nologging;
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_AUX.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';
