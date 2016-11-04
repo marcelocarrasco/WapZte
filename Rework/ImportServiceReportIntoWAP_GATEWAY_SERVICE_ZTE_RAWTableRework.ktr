@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_RAWTable</name>
+    <name>ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_RAWTableRework</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -74,17 +75,6 @@
           <sockets_compressed>Y</sockets_compressed>
           <dynamic>N</dynamic>
           <slaveservers>
-          </slaveservers>
-        </clusterschema>
-        <clusterschema>
-          <name>local</name>
-          <base_port>40000</base_port>
-          <sockets_buffer_size>2000</sockets_buffer_size>
-          <sockets_flush_interval>5000</sockets_flush_interval>
-          <sockets_compressed>Y</sockets_compressed>
-          <dynamic>N</dynamic>
-          <slaveservers>
-            <name>localhost</name>
           </slaveservers>
         </clusterschema>
     </clusterschemas>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>ImportEndToEnd</name>
+  <name>ImportServiceReportIntoWapGatewayServiceZteTableRework</name>
     <description/>
     <extended_description/>
     <job_version/>
+    <job_status>0</job_status>
   <directory>&#x2f;</directory>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;03 15&#x3a;03&#x3a;20.591</created_date>
+  <created_date>2016&#x2f;06&#x2f;03 17&#x3a;06&#x3a;09.518</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;03 15&#x3a;03&#x3a;20.591</modified_date>
+  <modified_date>2016&#x2f;06&#x2f;03 17&#x3a;06&#x3a;09.518</modified_date>
     <parameters>
     </parameters>
     <slaveservers>
@@ -52,185 +53,21 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
-      <yloc>80</yloc>
+      <xloc>192</xloc>
+      <yloc>224</yloc>
       </entry>
     <entry>
-      <name>Get Files And Populate FILES Table</name>
-      <description/>
-      <type>JOB</type>
-      <specification_method>filename</specification_method>
-      <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFilesAndPopulateFILESTable.kjb</filename>
-      <jobname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;get_files_and_populate_FILES_table</logfile>
-      <logext>log</logext>
-      <add_date>Y</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <slave_server_name/>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <expand_remote_job>N</expand_remote_job>
-      <create_parent_folder>N</create_parent_folder>
-      <pass_export>N</pass_export>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <set_append_logfile>N</set_append_logfile>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>272</xloc>
-      <yloc>80</yloc>
-      </entry>
-    <entry>
-      <name>Import Kpi Report Into Wap Gateway Kpi Zte Table</name>
-      <description/>
-      <type>JOB</type>
-      <specification_method>filename</specification_method>
-      <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWapGatewayKpiZteTable.kjb</filename>
-      <jobname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_kpi_report_into_wap_gateway_kpi_zte_table</logfile>
-      <logext>log</logext>
-      <add_date>Y</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <slave_server_name/>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <expand_remote_job>N</expand_remote_job>
-      <create_parent_folder>N</create_parent_folder>
-      <pass_export>N</pass_export>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <set_append_logfile>N</set_append_logfile>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>80</yloc>
-      </entry>
-    <entry>
-      <name>Success</name>
-      <description/>
-      <type>SUCCESS</type>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>944</xloc>
-      <yloc>384</yloc>
-      </entry>
-    <entry>
-      <name>Import Service Report Into Wap Gateway Service Zte Table</name>
-      <description/>
-      <type>JOB</type>
-      <specification_method>filename</specification_method>
-      <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportServiceReportIntoWapGatewayServiceZteTable.kjb</filename>
-      <jobname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_service_report_into_wap_gateway_service_zte_table</logfile>
-      <logext>log</logext>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <slave_server_name/>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <expand_remote_job>N</expand_remote_job>
-      <create_parent_folder>N</create_parent_folder>
-      <pass_export>N</pass_export>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <set_append_logfile>N</set_append_logfile>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>240</yloc>
-      </entry>
-    <entry>
-      <name>Zip WAP &#x26; SERVICE files</name>
-      <description/>
-      <type>ZIP_FILE</type>
-      <zipfilename>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;wapgw&#x2f;CSV&#x2f;Daily_WAP_Service_Gateway_Real-Time_Report.zip</zipfilename>
-      <compressionrate>1</compressionrate>
-      <ifzipfileexists>1</ifzipfileexists>
-      <wildcard>.&#x2a;&#x5c;.csv</wildcard>
-      <wildcardexclude/>
-      <sourcedirectory>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;wapgw</sourcedirectory>
-      <movetodirectory/>
-      <afterzip>1</afterzip>
-      <addfiletoresult>N</addfiletoresult>
-      <isfromprevious>N</isfromprevious>
-      <createparentfolder>N</createparentfolder>
-      <adddate>Y</adddate>
-      <addtime>N</addtime>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <createMoveToDirectory>N</createMoveToDirectory>
-      <include_subfolders>N</include_subfolders>
-      <stored_source_path_depth>1</stored_source_path_depth>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>384</yloc>
-      </entry>
-    <entry>
-      <name>Calcular Sumarizaciones Zte</name>
+      <name>Get Service Report File Names From Files Table Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;CalcularSumarizacionesZte.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetServiceReportFileNamesFromFilesTableRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;calcular_sumarizaciones_zte</logfile>
-      <logext>log</logext>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <logging_remote_work>N</logging_remote_work>
-      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>768</xloc>
-      <yloc>384</yloc>
-      </entry>
-    <entry>
-      <name>Set Environment</name>
-      <description/>
-      <type>TRANS</type>
-      <specification_method>filename</specification_method>
-      <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;SetEnvironment.ktr</filename>
-      <transname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
+      <clear_rows>Y</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
       <logfile/>
@@ -249,59 +86,90 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>157</xloc>
-      <yloc>211</yloc>
+      <xloc>192</xloc>
+      <yloc>80</yloc>
+      </entry>
+    <entry>
+      <name>Import Service Report Into WAP_GATEWAY_SERVICE_ZTE_AUX Table Rework</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_AUXTableRework.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>Y</exec_per_row>
+      <clear_rows>Y</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>720</xloc>
+      <yloc>80</yloc>
+      </entry>
+    <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>720</xloc>
+      <yloc>400</yloc>
+      </entry>
+    <entry>
+      <name>Import Service ReportInto WAP_GATEWAY_SERVICE_ZTE_RAW Table Rework</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportServiceReportIntoWAP_GATEWAY_SERVICE_ZTE_RAWTableRework.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>Y</set_logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_import_service_report_into_WAP_GATEWAY_SERVICE_ZTE_RAW_table</logfile>
+      <logext>log</logext>
+      <add_date>Y</add_date>
+      <add_time>N</add_time>
+      <loglevel>Error</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <parameters>        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>720</xloc>
+      <yloc>240</yloc>
       </entry>
   </entries>
   <hops>
     <hop>
-      <from>Get Files And Populate FILES Table</from>
-      <to>Import Kpi Report Into Wap Gateway Kpi Zte Table</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Import Kpi Report Into Wap Gateway Kpi Zte Table</from>
-      <to>Import Service Report Into Wap Gateway Service Zte Table</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Import Service Report Into Wap Gateway Service Zte Table</from>
-      <to>Zip WAP &#x26; SERVICE files</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Zip WAP &#x26; SERVICE files</from>
-      <to>Calcular Sumarizaciones Zte</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Calcular Sumarizaciones Zte</from>
-      <to>Success</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>START</from>
-      <to>Set Environment</to>
+      <to>Get Service Report File Names From Files Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -309,8 +177,26 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Set Environment</from>
-      <to>Get Files And Populate FILES Table</to>
+      <from>Get Service Report File Names From Files Table Rework</from>
+      <to>Import Service Report Into WAP_GATEWAY_SERVICE_ZTE_AUX Table Rework</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Import Service Report Into WAP_GATEWAY_SERVICE_ZTE_AUX Table Rework</from>
+      <to>Import Service ReportInto WAP_GATEWAY_SERVICE_ZTE_RAW Table Rework</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Import Service ReportInto WAP_GATEWAY_SERVICE_ZTE_RAW Table Rework</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

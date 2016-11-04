@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>ImportEndToEnd</name>
+  <name>ImportRework</name>
     <description/>
     <extended_description/>
     <job_version/>
+    <job_status>0</job_status>
   <directory>&#x2f;</directory>
   <created_user>-</created_user>
   <created_date>2016&#x2f;06&#x2f;03 15&#x3a;03&#x3a;20.591</created_date>
   <modified_user>-</modified_user>
   <modified_date>2016&#x2f;06&#x2f;03 15&#x3a;03&#x3a;20.591</modified_date>
     <parameters>
+        <parameter>
+            <name>FECHA_PROC</name>
+            <default_value/>
+            <description/>
+        </parameter>
     </parameters>
     <slaveservers>
          <slaveserver><name>falda.claro.amx</name><hostname>falda.claro.amx</hostname><port>8085</port><webAppName/><username>cluster</username><password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password><proxy_hostname>amba-proxy1.ctimovil.net</proxy_hostname><proxy_port>8083</proxy_port><non_proxy_hosts/><master>N</master><sslMode>N</sslMode></slaveserver>
@@ -52,26 +58,26 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
-      <yloc>80</yloc>
+      <xloc>32</xloc>
+      <yloc>192</yloc>
       </entry>
     <entry>
-      <name>Get Files And Populate FILES Table</name>
+      <name>Get Files And Populate FILES Table Rework</name>
       <description/>
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFilesAndPopulateFILESTable.kjb</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFilesAndPopulateFILESTableRework.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
+      <params_from_previous>Y</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;get_files_and_populate_FILES_table</logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_get_files_and_populate_FILES_table</logfile>
       <logext>log</logext>
       <add_date>Y</add_date>
       <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
+      <loglevel>Error</loglevel>
       <slave_server_name/>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -83,26 +89,26 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>272</xloc>
+      <xloc>160</xloc>
       <yloc>80</yloc>
       </entry>
     <entry>
-      <name>Import Kpi Report Into Wap Gateway Kpi Zte Table</name>
+      <name>Import Kpi Report Into Wap Gateway Kpi Zte Table Rework</name>
       <description/>
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWapGatewayKpiZteTable.kjb</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportKpiReportIntoWapGatewayKpiZteTableRework.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_kpi_report_into_wap_gateway_kpi_zte_table</logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_import_kpi_report_into_wap_gateway_kpi_zte_table</logfile>
       <logext>log</logext>
       <add_date>Y</add_date>
       <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
+      <loglevel>Error</loglevel>
       <slave_server_name/>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -124,26 +130,26 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>944</xloc>
+      <xloc>992</xloc>
       <yloc>384</yloc>
       </entry>
     <entry>
-      <name>Import Service Report Into Wap Gateway Service Zte Table</name>
+      <name>Import Service Report Into Wap Gateway Service Zte Table Rework</name>
       <description/>
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportServiceReportIntoWapGatewayServiceZteTable.kjb</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ImportServiceReportIntoWapGatewayServiceZteTableRework.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;import_service_report_into_wap_gateway_service_zte_table</logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_import_service_report_into_wap_gateway_service_zte_table</logfile>
       <logext>log</logext>
       <add_date>N</add_date>
       <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
+      <loglevel>Error</loglevel>
       <slave_server_name/>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -162,10 +168,10 @@
       <name>Zip WAP &#x26; SERVICE files</name>
       <description/>
       <type>ZIP_FILE</type>
-      <zipfilename>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;wapgw&#x2f;CSV&#x2f;Daily_WAP_Service_Gateway_Real-Time_Report.zip</zipfilename>
+      <zipfilename>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;wapgw&#x2f;CSV&#x2f;rwk_Daily_WAP_Service_Gateway_Real-Time_Report.zip</zipfilename>
       <compressionrate>1</compressionrate>
       <ifzipfileexists>1</ifzipfileexists>
-      <wildcard>.&#x2a;&#x5c;.csv</wildcard>
+      <wildcard>.&#x2a;&#x28;&#x3f;i&#x29;&#x28;_&#x24;&#x7b;FECHA_PROC&#x7d;&#x29;.&#x2a;&#x28;&#x3f;-i&#x29;&#x5c;.csv</wildcard>
       <wildcardexclude/>
       <sourcedirectory>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;wapgw</sourcedirectory>
       <movetodirectory/>
@@ -187,12 +193,12 @@
       <yloc>384</yloc>
       </entry>
     <entry>
-      <name>Calcular Sumarizaciones Zte</name>
+      <name>Calcular Sumarizaciones Zte Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;CalcularSumarizacionesZte.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;CalcularSumarizacionesZteRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -200,11 +206,11 @@
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;calcular_sumarizaciones_zte</logfile>
+      <logfile>&#x24;&#x7b;WAPZTE-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_calcular_sumarizaciones_zte</logfile>
       <logext>log</logext>
-      <add_date>N</add_date>
+      <add_date>Y</add_date>
       <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
+      <loglevel>Error</loglevel>
       <cluster>N</cluster>
       <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
@@ -216,16 +222,16 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
+      <xloc>800</xloc>
       <yloc>384</yloc>
       </entry>
     <entry>
-      <name>Set Environment</name>
+      <name>Set Environment Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;SetEnvironment.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;SetEnvironmentRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -249,14 +255,14 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>157</xloc>
-      <yloc>211</yloc>
+      <xloc>160</xloc>
+      <yloc>192</yloc>
       </entry>
   </entries>
   <hops>
     <hop>
-      <from>Get Files And Populate FILES Table</from>
-      <to>Import Kpi Report Into Wap Gateway Kpi Zte Table</to>
+      <from>Get Files And Populate FILES Table Rework</from>
+      <to>Import Kpi Report Into Wap Gateway Kpi Zte Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -264,8 +270,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Import Kpi Report Into Wap Gateway Kpi Zte Table</from>
-      <to>Import Service Report Into Wap Gateway Service Zte Table</to>
+      <from>Import Kpi Report Into Wap Gateway Kpi Zte Table Rework</from>
+      <to>Import Service Report Into Wap Gateway Service Zte Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -273,7 +279,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Import Service Report Into Wap Gateway Service Zte Table</from>
+      <from>Import Service Report Into Wap Gateway Service Zte Table Rework</from>
       <to>Zip WAP &#x26; SERVICE files</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -283,7 +289,7 @@
     </hop>
     <hop>
       <from>Zip WAP &#x26; SERVICE files</from>
-      <to>Calcular Sumarizaciones Zte</to>
+      <to>Calcular Sumarizaciones Zte Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -291,7 +297,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Calcular Sumarizaciones Zte</from>
+      <from>Calcular Sumarizaciones Zte Rework</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -301,7 +307,7 @@
     </hop>
     <hop>
       <from>START</from>
-      <to>Set Environment</to>
+      <to>Set Environment Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -309,8 +315,8 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Set Environment</from>
-      <to>Get Files And Populate FILES Table</to>
+      <from>Set Environment Rework</from>
+      <to>Get Files And Populate FILES Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

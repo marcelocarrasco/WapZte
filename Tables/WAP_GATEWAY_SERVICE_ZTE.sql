@@ -1,25 +1,3 @@
-
---select fecha,to_date(FECHA,'DD.MM.YYYY HH24:MI.SS')+1
---from wap_gateway_service_zte_raw
---where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('31.07.2016','DD.MM.YYYY');
---
-----
---select fecha,to_date(FECHA,'DD.MM.YYYY HH24:MI.SS')+1
---from wap_gateway_kpi_zte_raw
---where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('31.07.2016','DD.MM.YYYY');
-----
---update wap_gateway_service_zte_raw set
---fecha = to_date(fecha,'DD.MM.YYYY HH24:MI:SS')+1
---where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') = to_date('26.07.2016','DD.MM.YYYY');
---
-
---create table bck_wap_gatway_service_zte_raw as
---select *
---from wap_gateway_service_zte_raw
---where to_date(to_char(fecha,'DD.MM.YYYY'),'DD.MM.YYYY') > to_date('25.07.2016','DD.MM.YYYY');
-
-
-
 CREATE TABLE WAP_GATEWAY_SERVICE_ZTE_RAW(
 FECHA                               DATE NOT NULL ENABLE,
 WAP_BROWSER_REQUEST_NUMBER          NUMBER NOT NULL ENABLE,
@@ -43,59 +21,11 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-) nologging;
+);
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_RAW.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';
 comment on column WAP_GATEWAY_SERVICE_ZTE_RAW.HTTP_BROWSER_REQ_SUCCESS_RATIO is 'Abreviatura de la colunma original HTTP_BROWSER_REQUEST_SUCCESS_RATIO';
 
---
-CREATE OR REPLACE VIEW VWAP_GATEWAY_SERVICE_ZTE_HOUR(
-FECHA                               ,
-WAP_BROWSER_REQUEST_NUMBER          ,
-WAP_BROWSER_REQ_SUCCESS_RATIO       ,
-HTTP_BROWSER_REQUEST_NUMBER         ,
-HTTP_BROWSER_REQ_SUCCESS_RATIO      ,
-JAVA_DNLD_REQ_SUCCESS_RATIO         ,
-JAVA_DOWNLOAD_REQUEST_NUMBER        ,
-MMS_POST_REQUEST_NUMBER             ,
-MMS_POST_REQUEST_SUCCESS_RATIO      ,
-MMS_GET_REQUEST_NUMBER              ,
-MMS_GET_REQUEST_RATIO               ,
-PUSH_REQUEST_NUMBER                 ,
-PUSH_REQUEST_SUCCESS_RATIO          ,
-RADIUS_REQUEST_NUMBER               ,
-RADIUS_REQUEST_SUCCESS_RATIO        ,
-REQUEST_NUMBER                      ,
-REQUEST_SUCCESS_RATIO               ,
-ONLINE_USER_NUMBER                  ,
-GATEWAY_FORWARD_REQUEST_DELAY       ,
-GATEWAY_FORWARD_RESPONSE_DELAY      ,
-SP_DELAY                            ,
-SERVICE_DELAY                       
-) AS
-SELECT  FECHA                               ,
-        WAP_BROWSER_REQUEST_NUMBER          ,
-        WAP_BROWSER_REQ_SUCCESS_RATIO       ,
-        HTTP_BROWSER_REQUEST_NUMBER         ,
-        HTTP_BROWSER_REQ_SUCCESS_RATIO      ,
-        JAVA_DNLD_REQ_SUCCESS_RATIO         ,
-        JAVA_DOWNLOAD_REQUEST_NUMBER        ,
-        MMS_POST_REQUEST_NUMBER             ,
-        MMS_POST_REQUEST_SUCCESS_RATIO      ,
-        MMS_GET_REQUEST_NUMBER              ,
-        MMS_GET_REQUEST_RATIO               ,
-        PUSH_REQUEST_NUMBER                 ,
-        PUSH_REQUEST_SUCCESS_RATIO          ,
-        RADIUS_REQUEST_NUMBER               ,
-        RADIUS_REQUEST_SUCCESS_RATIO        ,
-        REQUEST_NUMBER                      ,
-        REQUEST_SUCCESS_RATIO               ,
-        ONLINE_USER_NUMBER                  ,
-        GATEWAY_FORWARD_REQUEST_DELAY       ,
-        GATEWAY_FORWARD_RESPONSE_DELAY      ,
-        SP_DELAY                            ,
-        SERVICE_DELAY 
-FROM WAP_GATEWAY_SERVICE_ZTE_RAW;
 
 -- DROP TABLE WAP_GATEWAY_SERVICE_ZTE_AUX;
 
@@ -128,7 +58,7 @@ TIME_                               DATE GENERATED ALWAYS AS (to_date(SUBSTR(SUB
                                                                     SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),5,2)||
                                                                     '.'||
                                                                     SUBSTR(SUBSTR(nombre_csv,INSTR(nombre_csv,'_',-1)+1,8),1,4)||' '||HORA,'dd.mm.yyyy HH24:MI')) VIRTUAL
-) nologging;
+);
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_AUX.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';
 comment on column WAP_GATEWAY_SERVICE_ZTE_AUX.HTTP_BROWSER_REQ_SUCCESS_RATIO is 'Abreviatura de la colunma original HTTP_BROWSER_REQUEST_SUCCESS_RATIO';
@@ -157,7 +87,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-) nologging;
+);
 
 ALTER TABLE WAP_GATEWAY_SERVICE_ZTE_DAY ADD CONSTRAINT WAP_GATEWAY_SERVICE_ZTE_DAY_PK PRIMARY KEY (FECHA);
 
@@ -188,7 +118,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-) nologging;
+);
 
 --ALTER TABLE WAP_GATEWAY_SERVICE_ZTE_BH ADD CONSTRAINT WAP_GATEWAY_SERVICE_ZTE_DAY_PK PRIMARY KEY (FECHA);
 
@@ -219,7 +149,7 @@ GATEWAY_FORWARD_REQUEST_DELAY       NUMBER NOT NULL ENABLE,
 GATEWAY_FORWARD_RESPONSE_DELAY      NUMBER NOT NULL ENABLE,
 SP_DELAY                            NUMBER NOT NULL ENABLE,
 SERVICE_DELAY                       NUMBER NOT NULL ENABLE
-) nologging;
+);
 
 
 comment on column WAP_GATEWAY_SERVICE_ZTE_IBHW.JAVA_DNLD_REQ_SUCCESS_RATIO  is 'Abreviatura de la colunma original JAVA_DOWNLOAD_REQUEST_SUCCESS_RATIO';

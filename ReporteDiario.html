@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "AYER"; }
+td:nth-of-type(1):before { content: "DIA"; }
+td:nth-of-type(2):before { content: "PROVEEDOR"; }
+td:nth-of-type(3):before { content: "NIVEL_HOUR"; }
+td:nth-of-type(4):before { content: "NIVEL_DAY"; }
+td:nth-of-type(5):before { content: "NIVEL_BH"; }
+td:nth-of-type(6):before { content: "SEM_ANTERIOR"; }
+td:nth-of-type(7):before { content: "DIA_SEM_ANTERIOR"; }
+td:nth-of-type(8):before { content: "NIVEL_IBHW"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>AYER</th>
+	<th>DIA</th>
+	<th>PROVEEDOR</th>
+	<th>NIVEL_HOUR</th>
+	<th>NIVEL_DAY</th>
+	<th>NIVEL_BH</th>
+	<th>SEM_ANTERIOR</th>
+	<th>DIA_SEM_ANTERIOR</th>
+	<th>NIVEL_IBHW</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>11.10.2016</td>
+<td>TUESDAY  </td>
+<td>WAP_GATEWAY_SERVICE_ZTE</td>
+<td align="right">24</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td>04.10.2016</td>
+<td>TUESDAY  </td>
+<td align="right">&nbsp;</td>
+	</tr>
+	<tr>
+<td>11.10.2016</td>
+<td>TUESDAY  </td>
+<td>WAP_GATEWAY_KPI_ZTE</td>
+<td align="right">6</td>
+<td align="right">&nbsp;</td>
+<td align="right">&nbsp;</td>
+<td>04.10.2016</td>
+<td>TUESDAY  </td>
+<td align="right">&nbsp;</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
